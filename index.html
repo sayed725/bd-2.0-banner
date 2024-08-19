@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to bangladesh 2.0 banner</title>
+    <script src="https://kit.fontawesome.com/83ae13a96c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="bg-[#191718]">
+    <header class="w-screen h-screen">
+        <nav class="container mx-auto flex justify-between items-center text-white py-10">
+            <a class="flex items-center gap-2 " href="#">
+                <img src="./images/logo.png" alt="">
+                <span class="font-semibold text-4xl">BD2.0</span>
+            </a>
+            <ul class="hidden sm:flex gap-10 text-xl">
+                <li><a href="#">Home</a></li>
+                <li><a href="">History</a></li>
+                <li><a href="">Contributors</a></li>
+
+                <li><a class="bg-[#FA8405] px-5 py-3 rounded-md text-[#191718] font-semibold" href="">Donate</a></li>
+            </ul>
+            <p class="sm:hidden"><i class="fa-solid fa-bars"></i></p>
+
+
+        </nav>
+    </header>
+</body>
+</html>
